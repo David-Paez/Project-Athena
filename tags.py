@@ -1,7 +1,7 @@
 from clarifai.rest import ClarifaiApp
 from clarifai.rest import Image as ClImage
 
-app = ClarifaiApp(api_key='d872db97834f46589ab9c6b70183b370')
+app = ClarifaiApp(api_key='')
 #app = ClarifaiApp()
 #CLARIFAI_API_KEY=d872db97834f46589ab9c6b70183b370
 
