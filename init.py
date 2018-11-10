@@ -45,4 +45,4 @@ async def guessMyEthnicity(ctx, link: str):
 async def whoseHungryFor(ctx, link: str):
     await ctx.send("Well, the food I see is " + ", ".join(isThisFood(link)) + ".")
 
-bot.run('NDkwNzc1MzM1OTM2NDU4NzUz.Dn-TfQ.FAf4UIp4m335jrDFS1IUBjTLeZQ')
+bot.run()
