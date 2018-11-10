@@ -3,7 +3,6 @@ from clarifai.rest import Image as ClImage
 
 app = ClarifaiApp(api_key='')
 #app = ClarifaiApp()
-#CLARIFAI_API_KEY=d872db97834f46589ab9c6b70183b370
 
 def get_relevant_tags(image_url):
     response_data = app.tag_urls([image_url])
